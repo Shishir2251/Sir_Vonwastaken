@@ -51,7 +51,7 @@ router = APIRouter()
 
 @router.get("/health")
 def health_check():
-    return {"status": "ok", "mongodb_connected": ping()}
+    return {"status": "ok", "mongodb_connected": ping()}    
 
 
 # ---------------------------------------------------------------------------
